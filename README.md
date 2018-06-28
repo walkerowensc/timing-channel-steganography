@@ -1,1 +1,2 @@
 # timing-channel-steganography
+This is the final code I co-wrote for a group project demonstrating timing chammel steganography. The client converts a given message to binary and sends it to the server via packets sent at certain intervals. The packets are sent in groups of 2. Two packets sent consecutively indicate a 0, two packets with a delay between them indicate a 1. The server observes the timing in which the packets are received and reconstructs the message.
